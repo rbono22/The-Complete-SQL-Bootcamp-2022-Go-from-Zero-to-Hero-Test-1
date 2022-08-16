@@ -6,12 +6,12 @@ COMPLETE THE FOLLOWING TASKS!
 
 * Return the customer IDs of customers who have spent at least $110 with the staff member who has an ID of 2.
 
-SELECT customer_id,SUM(amount) <br>
-FROM payment
-WHERE staff_id = 2
-GROUP BY customer_id
-HAVING SUM(amount) > 110;
-The answer should be customers 187 and 148
+SELECT customer_id,SUM(amount)<br>
+FROM payment<br>
+WHERE staff_id = 2<br>
+GROUP BY customer_id<br>
+HAVING SUM(amount) > 110;<br>
+The answer should be customers 187 and 148<br>
 
 * How many films begin with the letter J? 
 
