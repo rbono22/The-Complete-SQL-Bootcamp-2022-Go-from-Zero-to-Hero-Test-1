@@ -1,8 +1,7 @@
 # The-Complete-SQL-Bootcamp-2022-Go-from-Zero-to-Hero-Test-1
+# ASSESSMENT TEST 1
 
-## ASSESSMENT TEST 1
-
-### Return the customer IDs of customers who have spent at least $110 with the staff member who has an ID of 2.
+## Return the customer IDs of customers who have spent at least $110 with the staff member who has an ID of 2.
 
 SELECT customer_id,SUM(amount)<br>
 FROM payment<br>
@@ -12,7 +11,7 @@ HAVING SUM(amount) > 110;<br>
 <br>
 #### The answer should be customers 187 and 148
 
-### How many films begin with the letter J? 
+## How many films begin with the letter J? 
 
 SELECT COUNT(*) FROM film<br>
 WHERE title LIKE 'J%';<br>
@@ -20,7 +19,7 @@ WHERE title LIKE 'J%';<br>
 #### The answer is 20
 
 
-### What customer has the highest customer ID number whose name starts with an 'E' and has an address ID lower than 500?
+## What customer has the highest customer ID number whose name starts with an 'E' and has an address ID lower than 500?
 
 SELECT first_name,last_name FROM customer<br>
 WHERE first_name LIKE 'E%'<br>
