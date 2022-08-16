@@ -10,14 +10,14 @@ GROUP BY customer_id<br>
 HAVING SUM(amount) > 110;<br>
 <br>
 #### The answer should be customers 187 and 148
-<br>
+
 ### How many films begin with the letter J? 
 
 SELECT COUNT(*) FROM film<br>
 WHERE title LIKE 'J%';<br>
 <br>
 #### The answer is 20
-<br>
+
 ### What customer has the highest customer ID number whose name starts with an 'E' and has an address ID lower than 500?
 
 SELECT first_name,last_name FROM customer<br>
